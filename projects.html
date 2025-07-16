@@ -1,109 +1,172 @@
 <html>
     <head> 
         <title> My Basic Website</title>
+        <link rel = "stylesheet" href = "style.css">
     </head>
-    <body align = "center" >
-        <!--First section - about me-->
-        <div>
-            <h1> Welcome to my page! </h1>
+    <body>
 
-            <img src = "ProfilePic.png" alt = "Profile picture" border = "10px"/>
+        <h1 class = "center-text">Projects I Have Done</h1>
 
-            <p>Nice of you to stop by my page!</p>
-            <p>My name is Ethan Ky, I am a Junior studying Computer Science at UIC</p>
-            <p>I am passionate about coding and motivated by solving personal problems I experience<br/>
-            at work,at school, or in my personal life!</p>
 
-            <!--Links to check out-->
-            <table>
-                <td><a href = "https://www.linkedin.com/in/ethan-ky2429/">LinkedIn</a></td>
-                <td><a href = "https://github.com/eky2429">GitHub</a></td>
-                <td><a href = "https://ethan-ky-site.onrender.com/">My Other Personal Website</a></td>
-            </table>
-        </div>
+          <section>
+            <div class="projects-container">
+              <div class="course-card">
+                <h3>CS 211: Programming Practicum</h3>
+                <ol>
+                  <li class="finished">Wumpus Program</li>
+                  <li class="finished">Best Wordle Word</li>
+                  <li class="finished">Wordle Game Guesser</li>
+                </ol>
+              </div>
+          
+              <div class="course-card">
+                <h3>CS 251: Data Structures</h3>
+                <ol>
+                  <li class="finished">Gerrymandering Program</li>
+                  <li class="finished">Music Library</li>
+                  <li class="finished">Matrix Implementation</li>
+                  <li class="finished">Shape-List Program</li>
+                  <li class="finished">Priority Queue Program</li>
+                  <li class="finished">UIC Map Program</li>
+                </ol>
+              </div>
+          
+              <div class="course-card">
+                <h3>CS 341: Programming Design and Implementation</h3>
+                <ol>
+                  <li class="finished">Chess Program</li>
+                  <li class="finished">Image Editor</li>
+                  <li class="finished">Shape Drawer</li>
+                </ol>
+              </div>
+          
+              <div class="course-card">
+                <h3>CS 342: Software Design</h3>
+                <ol>
+                  <li class="finished">HashMap Program</li>
+                  <li class="finished">Baccarat Game</li>
+                  <li class="finished">Hangman</li>
+                </ol>
+              </div>
+          
+              <div class="course-card">
+                <h3>CS 362: Computer Design</h3>
+                <ol>
+                  <li class="finished">Music Displayer</li>
+                </ol>
+              </div>
+          
+              <div class="course-card">
+                <h3>SparkHacks 2024</h3>
+                <ol>
+                  <li class="finished">StarWealth</li>
+                </ol>
+              </div>
 
-        <hr>
+              <div class="course-card">
+                <h3>ART 151: Introduction to Creative Coding in New Media Arts</h3>
+                <ol>
+                  <li class="finished">Gradient Shapes</li>
+                  <li class="finished">Drawing Shapes</li>
+                  <li class="finished">Flying Game (w BeatStep)</li>
+                </ol>
+              </div>
 
-        <!--Second Section - Projects-->
-        <div>
-            <h2>Projects I have done</h2>
-            <p>To be honest, I have done many different projects at UIC ad very few personal projects</p>
-            <p>Regardless, I have a long list of projects I have done, which I will sort<br/>
-                into sections based on the classes the projects were for</p>
-            <table border = "2">
-                <!--2 columns-->>
-                <!--8 rows (1 header row + 7 other rows...)-->
-                <th>Course</th>
-                <th>Project name(s)</th>
+              <div class="course-card">
+                <h3>CS 426: Video Game Design</h3>
+                <ol>
+                  <li class="finished">Bullet Town</li>
+                  <li class="finished">Assignment 2</li>
+                  <li class="finished">Ninja Cat Battle</li>
+                  <li class="finished">Assignment 4</li>
+                  <li class="finished">Inkscapade</li>
+                </ol>
+              </div>
 
-                <tr bgcolor = "red">
-                    <td>CS 211: Programming Practicuum</td>
-                    <td>CS 251: Data Structures</td>
-                    <td>CS 341: Programming Design and Implementation</td>
-                    <td>CS 342: Software Design</td>
-                    <td>CS 362: Computer Design</td>
-                    <td>Sparkhacks 2024 Hackathon</td>
-                    <td>Some mini projects...</td>
-                </tr>
+              <div class="course-card">
+                <h3>CS 440: Software Engineering</h3>
+                <ol>
+                  <li class="finished">Pac-Survivor</li>
+                </ol>
+              </div>
 
-                <tr bgcolor = "blue">
-                    <!--For 211-->
-                    <td>
-                        <ol>
-                            <li>Wumpus Program</li>
-                            <li>Best Wordle Word</li>
-                            <li>Wordle Game Guesser</li>
-                        </ol>
-                    </td>
-                    <!--For 251-->
-                    <td>
-                        <ol>
-                            <li>Gerrymandering Program</li>
-                            <li>Music Library</li>
-                            <li>Matrix Implementation</li>
-                            <li>Shape-List Program</li>
-                            <li>Priority Queue Program</li>
-                            <li>UIC Map Program</li>
-                        </ol>
-                    </td>
-                    <!--For 341-->
-                    <td>
-                        <ol>
-                            <li>Chess Program</li>
-                            <li>Image Editor</li>
-                            <li>Shape Drawer</li>
-                        </ol>
-                    </td>
-                    <!--For 342-->
-                    <td>
-                        <ol>
-                            <li>HashMap Program</li>
-                            <li>Baccarat Game</li>
-                            <li>Hangman</li>
-                        </ol>
-                    </td>
-                    <!--For 362-->
-                    <td>
-                        <ol>
-                            <li>Music Displayer</li>
-                        </ol>
-                    </td>
-                    <!--For Sparkhacks-->
-                    <td>
-                        <ol>
-                            <li>StarWealth</li>
-                        </ol>
-                    </td>
-                    <!--For mini projects-->
-                    <td>
-                        <ol>
-                            <li>Description Maker</li>
-                            <li>Budget Program</li>
-                        </ol>
-                    </td>
-                </tr>
-            </table>
-        </div>
+              <div class="course-card">
+                <h3>CS 378: Software Development for Handheld DEvices</h3>
+                <ol>
+                  <li class="finished">Chicago App</li>
+                  <li class="finished">Movie App</li>
+                  <li class="finished">Animation App</li>
+                </ol>
+              </div>
+
+              <div class="course-card">
+                <h3>GameConDev</h3>
+                <ol>
+                  <li class="finished">My FIRST GAME!</li>
+                  <li class="finished">Flying Game Demo</li>
+                  <li class="finished">The Battle of Covid19 (The Original)</li>
+                  <li class="finished">64x64 Platform Official</li>
+                  <li class="finished">Flying Game FULL VERSION</li>
+                  <li class="finished">1st Game in Godot (CANCELLED)</li>
+                  <li class="finished">Cake Defender: Phil</li>
+                  <li class="finished">Pencil Meadows</li>
+                  <li class="finished">The Battle of Covid19 DEMO</li>
+                  <li class="finished">Breakout (in Java)</li>
+                  <li class="finished">Cake Defender 2 (Factory Defender)</li>
+                  <li class="finished">Roll-a-Ball</li>
+                </ol>
+              </div>
+
+              <div class="course-card">
+                <h3>WE-2023: DPI</h3>
+                <ol>
+                  <li class="finished">RPS with Sinatra</li>
+                  <li class="finished">Umbrella Website</li>
+                  <li class="finished">Rolling the dice with Sinatra</li>
+                  <li class="finished">Calculator</li>
+                  <li class="finished">Exchange Rate</li>
+                  <li class="finished">Personal Website</li>
+                  <li class="finished">RPS in CLI</li>
+                  <li class="finished">Anime Website</li>
+                </ol>
+              </div>
+
+              <div class="course-card">
+                <h3>SIG-Game</h3>
+                <ol>
+                  <li class="in-progress">The Bunker Fell</lili>
+                  <li class="planned">Yampire Run</lili>
+                </ol>
+              </div>
+
+              <div class="course-card">
+                <h3>Learnign with React</h3>
+                <ol>
+                  <li class="finished">React Info Site</li>
+                  <li class="finished">Air BnB Clone</li>
+                  <li class="finished">Digital Buisness Card</li>
+                  <li class="finished">Travel Journal</li>
+                  <li class="finished">Meme Generator</li>
+                </ol>
+              </div>
+          
+              <div class="course-card">
+                <h3>Mini Projects</h3>
+                <ol>
+                  <li class="in-progress">Learn Chinese App</lili>
+                  <li class="in-progress" >Soundboard</li>
+                  <li class="finished">Savings Application</li>
+                  <li class="in-progress">One Night with a Box Remake</li>
+                  <li class="finished">Description Maker</li>
+                  <li class="finished">Budget Program</li>
+                  <li class = "cancelled">BombTag</li>
+                  <li class = "in-progress">Sushi Go</li>
+                  <li class = "finished">Arduino: Humidity Display</li>
+                  <li class="in-progress">Personal Websites</lili>
+                </ol>
+              </div>
+            </div>
+          </section>
 
         <!--3rdish Section - Footer-->
         <p>P.S. the purpose of this website is literally just for me to practice my HTML</p>
